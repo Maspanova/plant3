@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--ширина страницы равна ширине устройства и не маштабируется-->
+	<meta name="description" content="Личная страница Маспановой Ольги">
+	<meta name="keywords" content="QA, analyst, data_analyst, front-end developer, Maspanova, CV">
+	<title>Plants</title>
+	<link rel="shortcut icon" href="images/logo_ico.svg">
+	<link rel="stylesheet" href="css/style.css" media="screen"> 
+	 <!--подключение шрифта Inika -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<header>
+
+		<div class="wrapper">
+			<div class="header_wrapper"> 
+				<a class="heder_logo" href="#!"><img src="images/logo.svg" alt="Logo_plants"></a>
+				<div class="menu-burger">
+					<span></span> <!--для мобильного меню-->
+				</div>
+				<nav class="heder_menu">
+					<ul class="header_list">
+						<li class="header_item"><a href="#welcome" class="header_link font_red"><b>Home</b></a></li>
+						<li class="header_item"><a href="#about" class="header_link">About us</a></li>
+						<li class="header_item"><a href="#service" class="header_link">Service</a></li>
+						<li class="header_item"><a href="#price" class="header_link">Price</a></li>
+						<li class="header_item"><a href="#contacts" class="header_link">Contacts</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="welcome" id="welcome">
+			<div class="wrapper">
+				<div class="welcome_all">
+					<div class="welcome_img"> 
+						<img class="small_welcom_img" src="./images/leafs.png" alt="big_plants">
+					</div>
+					<div class="welcome_text">
+						<h1> We grow <span class="color_green_h1">plants </span>and give you oxygen </h1>
+						<p class="welcome_p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+						<form action="#about"> 
+							<button class="welcome_button">LEARN MORE</button> </form>
+					</div>
+					</div>
+				
+			</div>
+		</section>
+		<section class="about" id="about">
+			<div class="wrapper">
+				<div class="about_all">
+					<div class="about_text">
+					<h2> <span class="color_green">We are </span><span class="font_red"> professional experienced</span> 
+						<span class="color_green">gardeners</span> </h2>
+					<p class="section_about_us_text"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
+						a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but 
+						also the leap into electronic typesetting, remaining essentially unchanged. </p> 
+					</div>
+					<img src="./images/houseplantm.png" alt="plant"> 
+					</div>
+			</div>
+		</section>
+		<section class="service" id="service" >
+			<div class="wrapper">
+				<div class="service_text">
+					<h2 class="color_green"> Service and our projects</h2>
+					<div class="service_form">
+					<form class="service_form" action="#!"> 
+						<button onclick="imageFilter(this)" class="service_button" id="service_button_1" value="1">Gardens</button> 
+						<button onclick="imageFilter(this)" class="service_button" id="service_button_2" value="2">Lawn</button> 
+						<button onclick="imageFilter(this)" class="service_button" id="service_button_3" value="3">Planting</button> 
+					</form>
+				</div>
+				</div>
+				<div class="place_cards">
+					<figure class="Garden"> 
+						<img class="Garden_img" src="images/first.jpg" alt="Garden care">
+						<figcaption>
+							<p class="font_red_im">Garden care</p> 
+							<p class="figcaption">Lorem Ipsum has been the industry</p>
+					</figcaption>
+					</figure>
+					<figure class="Planting"> 
+						<img class="Planting_img" src="images/first_1.jpg" alt="Planting">
+						<figcaption>
+						<p class="font_red_im">Planting </p>
+						<p class="figcaption">Lorem Ipsum has been the industry</p>
+					</figcaption>
+					</figure>
+					<figure class="Lamp"> 
+						<img class="Lamp_img" src="images/first_2.jpg" alt="Lawn">
+						<figcaption>
+						<p class="font_red_im">Lawn care</p>
+						<p class="figcaption">Lorem Ipsum has been the industry</p>
+					</figcaption>
+					</figure>
+					<figure class="Planting"> 
+						<img src="images/first_3.jpg" alt="Planting">
+					<figcaption>
+						<p class="font_red_im">Planting</p>
+						<p class="figcaption">Lorem Ipsum has been the industry</p>
+					</figcaption>
+					</figure>
+					<figure class="Garden"> 
+						<img src="images/first_4.jpg" alt="Garden care">
+						<figcaption>
+						<p class="font_red_im">Garden care</p>
+						<p class="figcaption">Lorem Ipsum has been the industry</p>
+					</figcaption>
+					</figure>
+					<figure class="Planting"> 
+						<img src="images/first_5.jpg" alt="Planting">
+						<figcaption>
+							<p class="font_red_im">Planting</p>					
+						<p class="figcaption">Lorem Ipsum has been the industry</p>
+					</figcaption>
+					</figure>
+					
+				</div>
+			</div>
+		</section>
+
+
+		<section class="prices" id="price">
+			<div class="wrapper">
+				<div class="prices_all">
+					<div class="prices_radio">
+						<h2>Prices</h2>
+
+						<div class="prices_acor"> 
+												
+   					 		<input type="radio"  name="acor" id="basics" value="1">
+    						<label for="basics">Basics</label>
+    						<div class="acor-body">
+								<h3>Basics</h3>
+								<p class="acor_text">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+								<h4 class="acor_price"><span class="font_red">$15</span> / per hour</h4>
+								<form action="#contacts"> <button class="acor_button">Order</button></form>
+   							</div>
+				
+   						 	<input type="radio" name="acor" id="standart" value="2">
+   							<label for="standart">Standart</label>
+    						<div class="acor-body">
+								<h3>Standard</h3>
+								
+        						<p class="acor_text">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+								<h4 class="acor_price"><span class="font_red">$25</span> / per hour</h4>
+								<form action="#contacts"> <button class="acor_button">Order</button> </form>    						 	
+							</div>
+			
+							<input type="radio" name="acor" id="pro" value="3">
+							<label for="pro">Pro care</label>
+							<div class="acor-body">
+								<h3>Pro care</h3>
+							
+        						<p class="acor_text">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+								<h4 class="acor_price"><span class="font_red">$35</span> / per hour</h4>
+								<form action="#contacts"> <button class="acor_button">Order</button></form>
+							</div>
+					
+						</div>
+					</div>
+					
+					
+					<div class="prices_contact_all">
+						<div class="prices_contact">
+						<p>Our best <span class="color_green"> gardeners </span>are ready to help you</p>
+						<form action="#contacts">
+						<button class="prices_button font_red" > <b>Contact us</b></button> 	
+						</form>
+					</div>
+					<img class="prices_img" src="./images/leafs_pric.svg" alt="leafs">
+					</div>	
+				</div>
+			</div>
+		</section>
+
+		<section class="contacts" id="contacts">
+
+		<div class="wrapper wrapper_contacts">
+		
+		<img class="contacts_img" src="./images/contact_woman1.png" alt="plants">
+		<h2 class="contacts_h">Contact us</h2>
+		<div class="contacts_form"> 
+			<select id="contacts_select" name="name" onChange="Selected(this)">
+				<!-- <optgroup label="City"> -->
+				<option class="city">City</option>
+				<option value="10">Canandaigua, NY</option>
+				<option value="20">New York City</option>
+				<option value="30">Yonkers, NY</option>
+				<option value="40">Sherrill, NY</option>
+				</select>
+			
+					<div class="contact_all_block" id="contact_Canandaigua" style="display: none">
+						<pre class="contacts_black">City:
+Phone:
+Office adress: </pre> 
+						<pre>Canandaigua, NY
++1	585	393 0001
+151 Charlotte Street</pre>
+						
+						<form action="tel:+15853930001" target="_blank"><button class="button_tel" >Call us</button>
+						</form>
+					</div>
+
+					<div class="contact_all_block" id="contact_New_York" style="display: none">
+						<pre class="contacts_black">City:
+Phone:
+Office adress: </pre> 
+						<pre>New York City
++1	212	456 0002
+9 East 91st Street</pre>
+						
+						<form action="tel:+12124560002" target="_blank"><button class="button_tel" >Call us</button>
+						</form>
+					</div>
+
+					<div class="contact_all_block " id="contact_Yonkers" style="display: none">
+						<pre class="contacts_black">City:
+Phone:
+Office adress: </pre> 
+						<pre>Yonkers, NY
++1	914	678 0003
+511 Warburton Ave</pre>
+						
+						<form action="tel:+19146780003" target="_blank"><button class="button_tel" >Call us</button>
+						</form>
+					</div>
+
+					<div class="contact_all_block" id="contact_Sherrill" style="display: none">
+						<pre class="contacts_black">City:
+Phone:
+Office adress: </pre> 
+						<pre>Sherrill, NY
++1	315	908 0004
+14 WEST Noyes BLVD</pre>
+						
+						<form action="tel:+13159080004" target="_blank"><button class="button_tel" >Call us</button>
+						</form>
+					</div>
+
+
+
+
+			
+			
+			
+			</div>
+	</div>
+</section>
+	</main>
+	<footer> 
+		<div class="wrapper">
+			<div class="footer">
+			<ul class="footer_all">
+				<li class="footer_1"><img src="./images/©.svg" alt="footer"></li>
+				<li class="footer_2">2022</li>
+				<li class="footer_3"><a href="https://github.com/Maspanova" target="_blank">github</a></li>
+				<li class="footer_4"><a href="https://rs.school/js/"  target="_blank">Rolling Scopes Schoo</a></li>
+				<li class="footer_5"><a href="https://www.instagram.com/olga_maspanova" target="_blank"><img src="./images/inst.svg" alt="Maspanova"></a></li>
+				<li class="footer_6"> <img src="./images/fb.svg" alt="Facebook"></li>
+				<li class="footer_7"> <img src="./images/tw.svg" alt="tw"></li>
+				<li class="footer_8"> <img src="./images/pinterest.svg" alt="Pinterest"></li>
+			
+			</ul>
+		</div>
+		</div>
+	</footer>
+	<script src="./js/index.js"></script>
+</body>
+
+</html>
